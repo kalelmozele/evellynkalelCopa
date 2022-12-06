@@ -1,0 +1,30 @@
+.All {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: #333238;
+}
+
+.cabecalho {
+    background: linear-gradient(to left, #00000000, #999 17%, #999 83%, #00000000);
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 16px 20%;
+    backdrop-filter: blur(24px);
+}
+
+.logocatar {
+    width: 140px;
+    height: auto;
+}
+
+.titulo {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    right: 13%;
+    top:50%;
+    font-size: 32px;
+    color:rgb(145, 20, 20);
+    font-weight: bold;
+    text-align: center;
+}
